@@ -1,0 +1,14 @@
+server:
+  port: 8110
+spring:
+  profiles:
+    active: dev
+
+mybatis:
+  mapper-locations: classpath:mapper/*.xml #Mapper的xml文件
+  type-aliases-package: com.lark.cloud.*.domain #实体类的包
+
+mapper:
+  mappers: com.lark.cloud.user.data.TkMapper
+  not-empty: false
+  identity: mysql

@@ -1,0 +1,16 @@
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://106.12.124.234:3306/lark?charSet=UTF-8
+    username: lark
+    password: "lark"
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://106.12.124.234:8761/eureka/
+  instance:
+    prefer-ip-address: true
+    instanceId: ${spring.application.name}:${random.value}
+
