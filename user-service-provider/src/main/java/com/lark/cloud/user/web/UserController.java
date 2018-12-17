@@ -1,12 +1,13 @@
 package com.lark.cloud.user.web;
 
 import com.lark.cloud.user.client.SysUserClient;
-import com.lark.cloud.user.domain.SysUser;
 import com.lark.cloud.user.dto.SysUserDto;
 import com.lark.cloud.user.service.SysUserService;
 import com.lark.cloud.user.web.adpater.UserMapper;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.*;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RestController;
 
 /**
  * @author sunyz
@@ -22,11 +23,6 @@ public class UserController implements SysUserClient {
     @Autowired
     private UserMapper mapper;
 
-    @GetMapping(value = "test")
-    public String test(){
-        return  "hello word";
-    }
-
     @Override
     public SysUserDto getSysUser(@RequestBody SysUserDto sysUserDto) {
         return null;
@@ -34,7 +30,7 @@ public class UserController implements SysUserClient {
 
     @Override
     public SysUserDto insertSysUser(@RequestBody SysUserDto sysUserDto) {
-        return null;
+        return mapper.map(sysUserService.create(mapper.map(sysUserDto)));
     }
 
     @Override
@@ -44,6 +40,6 @@ public class UserController implements SysUserClient {
 
     @Override
     public SysUserDto updateSysUser(@RequestBody SysUserDto sysUserDto) {
-        return null;
+        return mapper.map(sysUserService.update(mapper.map(sysUserDto)));
     }
 }

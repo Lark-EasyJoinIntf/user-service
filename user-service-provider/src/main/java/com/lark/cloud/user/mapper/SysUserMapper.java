@@ -1,6 +1,6 @@
 package com.lark.cloud.user.mapper;
 
-import com.lark.cloud.user.data.TkMapper;
+import com.lark.cloud.db.data.TkMapper;
 import com.lark.cloud.user.domain.SysUser;
 import org.springframework.stereotype.Repository;
 

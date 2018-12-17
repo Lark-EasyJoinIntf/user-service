@@ -27,43 +27,6 @@
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
 
-        <!--<dependency>-->
-            <!--<groupId>mysql</groupId>-->
-            <!--<artifactId>mysql-connector-java</artifactId>-->
-            <!--<version>8.0.13</version>-->
-        <!--</dependency>-->
-
-        <!--&lt;!&ndash;JSON&ndash;&gt;-->
-        <!--<dependency>-->
-            <!--<groupId>com.fasterxml.jackson.core</groupId>-->
-            <!--<artifactId>jackson-core</artifactId>-->
-        <!--</dependency>-->
-        <!--<dependency>-->
-            <!--<groupId>com.fasterxml.jackson.core</groupId>-->
-            <!--<artifactId>jackson-databind</artifactId>-->
-        <!--</dependency>-->
-        <!--<dependency>-->
-            <!--<groupId>com.fasterxml.jackson.datatype</groupId>-->
-            <!--<artifactId>jackson-datatype-joda</artifactId>-->
-        <!--</dependency>-->
-        <!--<dependency>-->
-            <!--<groupId>com.fasterxml.jackson.module</groupId>-->
-            <!--<artifactId>jackson-module-parameter-names</artifactId>-->
-        <!--</dependency>-->
-
-        <!--&lt;!&ndash;mapper&ndash;&gt;-->
-        <!--<dependency>-->
-            <!--<groupId>tk.mybatis</groupId>-->
-            <!--<artifactId>mapper-spring-boot-starter</artifactId>-->
-            <!--<version>RELEASE</version>-->
-        <!--</dependency>-->
-
-        <!--<dependency>-->
-            <!--<groupId>org.apache.commons</groupId>-->
-            <!--<artifactId>commons-lang3</artifactId>-->
-            <!--<version>3.8</version>-->
-        <!--</dependency>-->
-
 
     </dependencies>
 

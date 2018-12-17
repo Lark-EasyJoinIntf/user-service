@@ -1,6 +1,6 @@
 package com.lark.cloud.user.service;
 
-import com.lark.cloud.user.data.BaseService;
+import com.lark.cloud.db.data.BaseService;
 import com.lark.cloud.user.domain.SysUser;
 import org.springframework.stereotype.Service;
 

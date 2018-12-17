@@ -6,6 +6,16 @@ spring:
     username: lark
     password: "lark"
 
+    //连接池配置 hikari数据源配置
+    type: com.zaxxer.hikari.HikariDataSource
+    hikari:
+      connection-timeout: 30000
+      max-lifetime: 1800000
+      maximum-pool-size: 20
+      connection-test-query: SELECT 1 FROM DUAL
+
+
+
 eureka:
   client:
     serviceUrl:
