@@ -20,6 +20,8 @@ public class SysUserDto implements Serializable {
 
     private Long id;
 
+    private String account;
+
     private String fullName;
 
     private String nickName;

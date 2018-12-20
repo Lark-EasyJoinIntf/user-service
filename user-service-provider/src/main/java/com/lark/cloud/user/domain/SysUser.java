@@ -24,6 +24,9 @@ public class SysUser implements Serializable {
     @Id
     private Long id;
 
+    @Column(name = "account")
+    private String account;
+
     @Column(name = "full_name")
     private String fullName;
 

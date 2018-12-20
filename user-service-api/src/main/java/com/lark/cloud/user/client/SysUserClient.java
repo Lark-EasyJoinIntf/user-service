@@ -15,7 +15,7 @@ import java.util.List;
 public interface SysUserClient {
 
     @GetMapping(value = "user")
-    SysUserDto getSysUser(@RequestBody SysUserDto sysUserDto);
+    SysUserDto getByAccountPsd(@RequestParam String account,@RequestParam String psd);
 
     @PostMapping(value = "user")
     SysUserDto insertSysUser(@RequestBody SysUserDto sysUserDto);
