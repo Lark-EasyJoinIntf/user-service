@@ -1,6 +1,5 @@
 package com.lark.cloud.user.dto;
 
-import com.lark.cloud.utils.BaseDomain;
 import lombok.Generated;
 import lombok.Getter;
 import lombok.Setter;

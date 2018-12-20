@@ -6,7 +6,7 @@ spring:
     username: lark
     password: "lark"
 
-    //连接池配置 hikari数据源配置
+    #连接池配置 hikari数据源配置
     type: com.zaxxer.hikari.HikariDataSource
     hikari:
       connection-timeout: 30000
