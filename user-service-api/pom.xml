@@ -22,19 +22,6 @@
     </properties>
 
     <dependencies>
-        <!--<dependency>-->
-            <!--<groupId>com.lark.cloud</groupId>-->
-            <!--<artifactId>lark-feign-parent</artifactId>-->
-            <!--<version>${lark.version}</version>-->
-        <!--</dependency>-->
-
-        <!--<dependency>-->
-            <!--<groupId>org.projectlombok</groupId>-->
-            <!--<artifactId>lombok</artifactId>-->
-            <!--<version>1.18.4</version>-->
-            <!--<scope>provided</scope>-->
-        <!--</dependency>-->
-
     </dependencies>
 
 </project>
