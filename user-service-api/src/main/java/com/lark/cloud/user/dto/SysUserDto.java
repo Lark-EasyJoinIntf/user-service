@@ -38,6 +38,8 @@ public class SysUserDto implements Serializable {
 
     private String channel;
 
+    private String status;
+
     private Date updateTime;
 
     private Date createTime;

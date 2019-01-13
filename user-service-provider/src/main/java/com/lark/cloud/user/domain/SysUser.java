@@ -51,6 +51,9 @@ public class SysUser implements Serializable {
     @Column(name = "channel")
     private String channel;
 
+    @Column(name = "status")
+    private String status;
+
     @Column(name = "update_time")
     private Date updateTime;
 
